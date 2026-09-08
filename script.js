@@ -15,7 +15,9 @@ let cardsEl = document.getElementById("cards-el");
 let ncBtn = document.getElementById("new-card");
 let playerEl = document.getElementById("player-el");
 
-
+function testFunction(){
+    console.log("Bismillahir Rahmanir Rahim");
+}
 
 
 playerEl.textContent = player.name + " : $" + player.chips;
