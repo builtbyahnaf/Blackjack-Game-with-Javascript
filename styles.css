@@ -1,0 +1,41 @@
+body {
+    font-family: 'Trebuchet MS', Geneva, Verdana, sans-serif;
+    background-color: #016f32;
+    
+    text-align: center;
+
+color: azure;
+    font-weight: bold;
+}
+
+h1{
+    color: goldenrod;
+
+}
+#message-el{
+    font-style: italic;
+}
+button{
+    color: #016f32;
+    width: 150px;
+    padding: 16px;
+    font-family: 'Outfit', Courier, monospace;
+    font-weight: bold;
+    border-radius: 16px;
+    border: none;
+    margin-top: 8px;
+    background: linear-gradient(100deg, goldenrod, rgb(163, 116, 23));
+}
+
+button:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.96);
+}
+button{
+    letter-spacing: 1.4px;
+    box-shadow: 0 4px 12px rgba(7, 64, 1, 0.823);
+  transition: all 0.33s ease-out;
+}
