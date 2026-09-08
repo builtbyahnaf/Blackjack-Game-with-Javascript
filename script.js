@@ -1,6 +1,7 @@
 let player = {
     name : "Ahnaf",
-    chips : 989889687898998
+    chips : 81486444
+    /* Chip count changed for no reason */
 }
 
 let sum = 0;
